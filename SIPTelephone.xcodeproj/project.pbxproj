@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5A6767130B418C00690996 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6766130B418C00690996 /* UIKit.framework */; };
+		AA5A6769130B418C00690996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A6768130B418C00690996 /* Foundation.framework */; };
+		AA5A676B130B418C00690996 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A676A130B418C00690996 /* CoreGraphics.framework */; };
+		AA5A6771130B418C00690996 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5A676F130B418C00690996 /* InfoPlist.strings */; };
+		AA5A6774130B418C00690996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6773130B418C00690996 /* main.m */; };
+		AA5A6777130B418C00690996 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A6776130B418C00690996 /* AppDelegate.m */; };
+		AA5A677A130B418C00690996 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A6778130B418C00690996 /* MainWindow.xib */; };
+		AA5A67B1130B465B00690996 /* CallController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A67AF130B465A00690996 /* CallController.m */; };
+		AA5A67B2130B465C00690996 /* CallController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67B0130B465A00690996 /* CallController.xib */; };
+		AA5A67B6130B478B00690996 /* FavoritesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67B3130B478B00690996 /* FavoritesController.xib */; };
+		AA5A67B7130B478B00690996 /* FavoritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A67B5130B478B00690996 /* FavoritesController.m */; };
+		AA5A67BB130B47B900690996 /* RecentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A67B9130B47B900690996 /* RecentsController.m */; };
+		AA5A67BC130B47B900690996 /* RecentsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67BA130B47B900690996 /* RecentsController.xib */; };
+		AA5A67C0130B47D900690996 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A67BE130B47D900690996 /* ContactsController.m */; };
+		AA5A67C1130B47D900690996 /* ContactsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67BF130B47D900690996 /* ContactsController.xib */; };
+		AA5A67C5130B47EA00690996 /* KeypadController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A67C3130B47EA00690996 /* KeypadController.m */; };
+		AA5A67C6130B47EA00690996 /* KeypadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67C4130B47EA00690996 /* KeypadController.xib */; };
+		AA5A67CD130B480C00690996 /* AccountAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A67C8130B480C00690996 /* AccountAddController.m */; };
+		AA5A67CE130B480C00690996 /* AccountAddController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67C9130B480C00690996 /* AccountAddController.xib */; };
+		AA5A67CF130B480C00690996 /* AccountsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5A67CB130B480C00690996 /* AccountsController.m */; };
+		AA5A67D0130B480C00690996 /* AccountsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67CC130B480C00690996 /* AccountsController.xib */; };
+		AA5A67DB130B499000690996 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67D9130B498F00690996 /* Icon.png */; };
+		AA5A67DC130B499000690996 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5A67DA130B499000690996 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA5A6762130B418C00690996 /* SIPTelephone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIPTelephone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5A6766130B418C00690996 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA5A6768130B418C00690996 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA5A676A130B418C00690996 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA5A676E130B418C00690996 /* SIPTelephone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIPTelephone-Info.plist"; sourceTree = "<group>"; };
+		AA5A6770130B418C00690996 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5A6772130B418C00690996 /* SIPTelephone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SIPTelephone-Prefix.pch"; sourceTree = "<group>"; };
+		AA5A6773130B418C00690996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5A6775130B418C00690996 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5A6776130B418C00690996 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5A6779130B418C00690996 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AA5A67AE130B465900690996 /* CallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallController.h; sourceTree = "<group>"; };
+		AA5A67AF130B465A00690996 /* CallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallController.m; sourceTree = "<group>"; };
+		AA5A67B0130B465A00690996 /* CallController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallController.xib; sourceTree = "<group>"; };
+		AA5A67B3130B478B00690996 /* FavoritesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesController.xib; sourceTree = "<group>"; };
+		AA5A67B4130B478B00690996 /* FavoritesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesController.h; sourceTree = "<group>"; };
+		AA5A67B5130B478B00690996 /* FavoritesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesController.m; sourceTree = "<group>"; };
+		AA5A67B8130B47B900690996 /* RecentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsController.h; sourceTree = "<group>"; };
+		AA5A67B9130B47B900690996 /* RecentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsController.m; sourceTree = "<group>"; };
+		AA5A67BA130B47B900690996 /* RecentsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentsController.xib; sourceTree = "<group>"; };
+		AA5A67BD130B47D900690996 /* ContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		AA5A67BE130B47D900690996 /* ContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
+		AA5A67BF130B47D900690996 /* ContactsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsController.xib; sourceTree = "<group>"; };
+		AA5A67C2130B47EA00690996 /* KeypadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadController.h; sourceTree = "<group>"; };
+		AA5A67C3130B47EA00690996 /* KeypadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadController.m; sourceTree = "<group>"; };
+		AA5A67C4130B47EA00690996 /* KeypadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeypadController.xib; sourceTree = "<group>"; };
+		AA5A67C7130B480C00690996 /* AccountAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountAddController.h; sourceTree = "<group>"; };
+		AA5A67C8130B480C00690996 /* AccountAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountAddController.m; sourceTree = "<group>"; };
+		AA5A67C9130B480C00690996 /* AccountAddController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountAddController.xib; sourceTree = "<group>"; };
+		AA5A67CA130B480C00690996 /* AccountsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsController.h; sourceTree = "<group>"; };
+		AA5A67CB130B480C00690996 /* AccountsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsController.m; sourceTree = "<group>"; };
+		AA5A67CC130B480C00690996 /* AccountsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountsController.xib; sourceTree = "<group>"; };
+		AA5A67D9130B498F00690996 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AA5A67DA130B499000690996 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5A675F130B418C00690996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A6767130B418C00690996 /* UIKit.framework in Frameworks */,
+				AA5A6769130B418C00690996 /* Foundation.framework in Frameworks */,
+				AA5A676B130B418C00690996 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5A6757130B418C00690996 = {
+			isa = PBXGroup;
+			children = (
+				AA5A676C130B418C00690996 /* SIPTelephone */,
+				AA5A6765130B418C00690996 /* Frameworks */,
+				AA5A6763130B418C00690996 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5A6763130B418C00690996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A6762130B418C00690996 /* SIPTelephone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5A6765130B418C00690996 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A6766130B418C00690996 /* UIKit.framework */,
+				AA5A6768130B418C00690996 /* Foundation.framework */,
+				AA5A676A130B418C00690996 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5A676C130B418C00690996 /* SIPTelephone */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A6775130B418C00690996 /* AppDelegate.h */,
+				AA5A6776130B418C00690996 /* AppDelegate.m */,
+				AA5A6778130B418C00690996 /* MainWindow.xib */,
+				AA5A67AE130B465900690996 /* CallController.h */,
+				AA5A67AF130B465A00690996 /* CallController.m */,
+				AA5A67B0130B465A00690996 /* CallController.xib */,
+				AA5A67A4130B457D00690996 /* Favorites */,
+				AA5A67A5130B458500690996 /* Recents */,
+				AA5A67A6130B45A000690996 /* Contacts */,
+				AA5A67A7130B45AF00690996 /* Keypad */,
+				AA5A67A8130B45B600690996 /* Accounts */,
+				AA5A676D130B418C00690996 /* Supporting Files */,
+			);
+			indentWidth = 2;
+			path = SIPTelephone;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		AA5A676D130B418C00690996 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A676E130B418C00690996 /* SIPTelephone-Info.plist */,
+				AA5A676F130B418C00690996 /* InfoPlist.strings */,
+				AA5A6772130B418C00690996 /* SIPTelephone-Prefix.pch */,
+				AA5A6773130B418C00690996 /* main.m */,
+				AA5A67D9130B498F00690996 /* Icon.png */,
+				AA5A67DA130B499000690996 /* Icon@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5A67A4130B457D00690996 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A67B4130B478B00690996 /* FavoritesController.h */,
+				AA5A67B5130B478B00690996 /* FavoritesController.m */,
+				AA5A67B3130B478B00690996 /* FavoritesController.xib */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		AA5A67A5130B458500690996 /* Recents */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A67B8130B47B900690996 /* RecentsController.h */,
+				AA5A67B9130B47B900690996 /* RecentsController.m */,
+				AA5A67BA130B47B900690996 /* RecentsController.xib */,
+			);
+			name = Recents;
+			sourceTree = "<group>";
+		};
+		AA5A67A6130B45A000690996 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A67BD130B47D900690996 /* ContactsController.h */,
+				AA5A67BE130B47D900690996 /* ContactsController.m */,
+				AA5A67BF130B47D900690996 /* ContactsController.xib */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		AA5A67A7130B45AF00690996 /* Keypad */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A67C2130B47EA00690996 /* KeypadController.h */,
+				AA5A67C3130B47EA00690996 /* KeypadController.m */,
+				AA5A67C4130B47EA00690996 /* KeypadController.xib */,
+			);
+			name = Keypad;
+			sourceTree = "<group>";
+		};
+		AA5A67A8130B45B600690996 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				AA5A67CA130B480C00690996 /* AccountsController.h */,
+				AA5A67CB130B480C00690996 /* AccountsController.m */,
+				AA5A67CC130B480C00690996 /* AccountsController.xib */,
+				AA5A67C7130B480C00690996 /* AccountAddController.h */,
+				AA5A67C8130B480C00690996 /* AccountAddController.m */,
+				AA5A67C9130B480C00690996 /* AccountAddController.xib */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5A6761130B418C00690996 /* SIPTelephone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5A6789130B418C00690996 /* Build configuration list for PBXNativeTarget "SIPTelephone" */;
+			buildPhases = (
+				AA5A675E130B418C00690996 /* Sources */,
+				AA5A675F130B418C00690996 /* Frameworks */,
+				AA5A6760130B418C00690996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIPTelephone;
+			productName = SIPTelephone;
+			productReference = AA5A6762130B418C00690996 /* SIPTelephone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5A6759130B418C00690996 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = AA5A675C130B418C00690996 /* Build configuration list for PBXProject "SIPTelephone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA5A6757130B418C00690996;
+			productRefGroup = AA5A6763130B418C00690996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5A6761130B418C00690996 /* SIPTelephone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5A6760130B418C00690996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A6771130B418C00690996 /* InfoPlist.strings in Resources */,
+				AA5A677A130B418C00690996 /* MainWindow.xib in Resources */,
+				AA5A67B2130B465C00690996 /* CallController.xib in Resources */,
+				AA5A67B6130B478B00690996 /* FavoritesController.xib in Resources */,
+				AA5A67BC130B47B900690996 /* RecentsController.xib in Resources */,
+				AA5A67C1130B47D900690996 /* ContactsController.xib in Resources */,
+				AA5A67C6130B47EA00690996 /* KeypadController.xib in Resources */,
+				AA5A67CE130B480C00690996 /* AccountAddController.xib in Resources */,
+				AA5A67D0130B480C00690996 /* AccountsController.xib in Resources */,
+				AA5A67DB130B499000690996 /* Icon.png in Resources */,
+				AA5A67DC130B499000690996 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5A675E130B418C00690996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A6774130B418C00690996 /* main.m in Sources */,
+				AA5A6777130B418C00690996 /* AppDelegate.m in Sources */,
+				AA5A67B1130B465B00690996 /* CallController.m in Sources */,
+				AA5A67B7130B478B00690996 /* FavoritesController.m in Sources */,
+				AA5A67BB130B47B900690996 /* RecentsController.m in Sources */,
+				AA5A67C0130B47D900690996 /* ContactsController.m in Sources */,
+				AA5A67C5130B47EA00690996 /* KeypadController.m in Sources */,
+				AA5A67CD130B480C00690996 /* AccountAddController.m in Sources */,
+				AA5A67CF130B480C00690996 /* AccountsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA5A676F130B418C00690996 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5A6770130B418C00690996 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA5A6778130B418C00690996 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5A6779130B418C00690996 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5A6787130B418C00690996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA5A6788130B418C00690996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AA5A678A130B418C00690996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SIPTelephone/SIPTelephone-Prefix.pch";
+				INFOPLIST_FILE = "SIPTelephone/SIPTelephone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA5A678B130B418C00690996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SIPTelephone/SIPTelephone-Prefix.pch";
+				INFOPLIST_FILE = "SIPTelephone/SIPTelephone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5A675C130B418C00690996 /* Build configuration list for PBXProject "SIPTelephone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5A6787130B418C00690996 /* Debug */,
+				AA5A6788130B418C00690996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5A6789130B418C00690996 /* Build configuration list for PBXNativeTarget "SIPTelephone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5A678A130B418C00690996 /* Debug */,
+				AA5A678B130B418C00690996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5A6759130B418C00690996 /* Project object */;
+}
